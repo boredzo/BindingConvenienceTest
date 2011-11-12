@@ -3,13 +3,19 @@
 //  BindingConvenienceTest
 //
 //  Created by Peter Hosey on 2011-11-12.
-//  Copyright (c) 2011 __MyCompanyName__. All rights reserved.
+//  Copyright (c) 2011 Peter Hosey. All rights reserved.
 //
 
-#import <Cocoa/Cocoa.h>
+@class PRHValuesOwner;
+@class PRHHueView;
+@class PRHBindableNonView;
 
 @interface PRHAppDelegate : NSObject <NSApplicationDelegate>
 
 @property (assign) IBOutlet NSWindow *window;
+@property (weak) IBOutlet PRHHueView *hueView;
+@property (weak) IBOutlet PRHBindableNonView *bindableNonView;
+@property (weak) IBOutlet PRHValuesOwner *valuesOwner;
+- (IBAction)setNameToSomethingRandom:(id)sender;
 
 @end

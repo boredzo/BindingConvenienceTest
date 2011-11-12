@@ -1,14 +1,13 @@
 //
-//  main.m
+//  PRHBindableNonView.h
 //  BindingConvenienceTest
 //
 //  Created by Peter Hosey on 2011-11-12.
 //  Copyright (c) 2011 Peter Hosey. All rights reserved.
 //
 
-#import <Cocoa/Cocoa.h>
+@interface PRHBindableNonView : NSObject
 
-int main(int argc, char *argv[])
-{
-	return NSApplicationMain(argc, (const char **)argv);
-}
+@property(copy) NSString *name;
+
+@end

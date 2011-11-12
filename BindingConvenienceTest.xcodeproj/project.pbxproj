@@ -13,6 +13,9 @@
 		31FB430F146EEA5000CF8142 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 31FB430D146EEA5000CF8142 /* Credits.rtf */; };
 		31FB4312146EEA5000CF8142 /* PRHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 31FB4311146EEA5000CF8142 /* PRHAppDelegate.m */; };
 		31FB4315146EEA5000CF8142 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 31FB4313146EEA5000CF8142 /* MainMenu.xib */; };
+		31FB431D146EEA8000CF8142 /* PRHBindableNonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 31FB431C146EEA8000CF8142 /* PRHBindableNonView.m */; };
+		31FB4320146EEC3B00CF8142 /* PRHValuesOwner.m in Sources */ = {isa = PBXBuildFile; fileRef = 31FB431F146EEC3B00CF8142 /* PRHValuesOwner.m */; };
+		31FB4323146EEF0800CF8142 /* PRHHueView.m in Sources */ = {isa = PBXBuildFile; fileRef = 31FB4322146EEF0800CF8142 /* PRHHueView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,14 +24,20 @@
 		31FB4301146EEA5000CF8142 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		31FB4302146EEA5000CF8142 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		31FB4303146EEA5000CF8142 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		31FB4306146EEA5000CF8142 /* BindingConvenienceTest-Info.plist */ = {isa = PBXFileReference; path = "BindingConvenienceTest-Info.plist"; sourceTree = "<group>"; };
+		31FB4306146EEA5000CF8142 /* BindingConvenienceTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BindingConvenienceTest-Info.plist"; sourceTree = "<group>"; };
 		31FB4308146EEA5000CF8142 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		31FB430A146EEA5000CF8142 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		31FB430C146EEA5000CF8142 /* BindingConvenienceTest-Prefix.pch */ = {isa = PBXFileReference; path = "BindingConvenienceTest-Prefix.pch"; sourceTree = "<group>"; };
+		31FB430C146EEA5000CF8142 /* BindingConvenienceTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BindingConvenienceTest-Prefix.pch"; sourceTree = "<group>"; };
 		31FB430E146EEA5000CF8142 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		31FB4310146EEA5000CF8142 /* PRHAppDelegate.h */ = {isa = PBXFileReference; path = PRHAppDelegate.h; sourceTree = "<group>"; };
+		31FB4310146EEA5000CF8142 /* PRHAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PRHAppDelegate.h; sourceTree = "<group>"; };
 		31FB4311146EEA5000CF8142 /* PRHAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PRHAppDelegate.m; sourceTree = "<group>"; };
 		31FB4314146EEA5000CF8142 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		31FB431B146EEA8000CF8142 /* PRHBindableNonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PRHBindableNonView.h; sourceTree = "<group>"; };
+		31FB431C146EEA8000CF8142 /* PRHBindableNonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PRHBindableNonView.m; sourceTree = "<group>"; };
+		31FB431E146EEC3B00CF8142 /* PRHValuesOwner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PRHValuesOwner.h; sourceTree = "<group>"; };
+		31FB431F146EEC3B00CF8142 /* PRHValuesOwner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PRHValuesOwner.m; sourceTree = "<group>"; };
+		31FB4321146EEF0800CF8142 /* PRHHueView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PRHHueView.h; sourceTree = "<group>"; };
+		31FB4322146EEF0800CF8142 /* PRHHueView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PRHHueView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +93,12 @@
 			children = (
 				31FB4310146EEA5000CF8142 /* PRHAppDelegate.h */,
 				31FB4311146EEA5000CF8142 /* PRHAppDelegate.m */,
+				31FB4321146EEF0800CF8142 /* PRHHueView.h */,
+				31FB4322146EEF0800CF8142 /* PRHHueView.m */,
+				31FB431B146EEA8000CF8142 /* PRHBindableNonView.h */,
+				31FB431C146EEA8000CF8142 /* PRHBindableNonView.m */,
+				31FB431E146EEC3B00CF8142 /* PRHValuesOwner.h */,
+				31FB431F146EEC3B00CF8142 /* PRHValuesOwner.m */,
 				31FB4313146EEA5000CF8142 /* MainMenu.xib */,
 				31FB4305146EEA5000CF8142 /* Supporting Files */,
 			);
@@ -167,6 +182,9 @@
 			files = (
 				31FB430B146EEA5000CF8142 /* main.m in Sources */,
 				31FB4312146EEA5000CF8142 /* PRHAppDelegate.m in Sources */,
+				31FB431D146EEA8000CF8142 /* PRHBindableNonView.m in Sources */,
+				31FB4320146EEC3B00CF8142 /* PRHValuesOwner.m in Sources */,
+				31FB4323146EEF0800CF8142 /* PRHHueView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
