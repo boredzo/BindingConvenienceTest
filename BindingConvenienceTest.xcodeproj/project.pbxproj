@@ -1,0 +1,295 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		31FB42FF146EEA5000CF8142 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31FB42FE146EEA5000CF8142 /* Cocoa.framework */; };
+		31FB4309146EEA5000CF8142 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 31FB4307146EEA5000CF8142 /* InfoPlist.strings */; };
+		31FB430B146EEA5000CF8142 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 31FB430A146EEA5000CF8142 /* main.m */; };
+		31FB430F146EEA5000CF8142 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 31FB430D146EEA5000CF8142 /* Credits.rtf */; };
+		31FB4312146EEA5000CF8142 /* PRHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 31FB4311146EEA5000CF8142 /* PRHAppDelegate.m */; };
+		31FB4315146EEA5000CF8142 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 31FB4313146EEA5000CF8142 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		31FB42FA146EEA5000CF8142 /* BindingConvenienceTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BindingConvenienceTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		31FB42FE146EEA5000CF8142 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		31FB4301146EEA5000CF8142 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		31FB4302146EEA5000CF8142 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		31FB4303146EEA5000CF8142 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		31FB4306146EEA5000CF8142 /* BindingConvenienceTest-Info.plist */ = {isa = PBXFileReference; path = "BindingConvenienceTest-Info.plist"; sourceTree = "<group>"; };
+		31FB4308146EEA5000CF8142 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		31FB430A146EEA5000CF8142 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		31FB430C146EEA5000CF8142 /* BindingConvenienceTest-Prefix.pch */ = {isa = PBXFileReference; path = "BindingConvenienceTest-Prefix.pch"; sourceTree = "<group>"; };
+		31FB430E146EEA5000CF8142 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		31FB4310146EEA5000CF8142 /* PRHAppDelegate.h */ = {isa = PBXFileReference; path = PRHAppDelegate.h; sourceTree = "<group>"; };
+		31FB4311146EEA5000CF8142 /* PRHAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PRHAppDelegate.m; sourceTree = "<group>"; };
+		31FB4314146EEA5000CF8142 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		31FB42F7146EEA4F00CF8142 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31FB42FF146EEA5000CF8142 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		31FB42EF146EEA4F00CF8142 = {
+			isa = PBXGroup;
+			children = (
+				31FB4304146EEA5000CF8142 /* BindingConvenienceTest */,
+				31FB42FD146EEA5000CF8142 /* Frameworks */,
+				31FB42FB146EEA5000CF8142 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		31FB42FB146EEA5000CF8142 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				31FB42FA146EEA5000CF8142 /* BindingConvenienceTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		31FB42FD146EEA5000CF8142 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				31FB42FE146EEA5000CF8142 /* Cocoa.framework */,
+				31FB4300146EEA5000CF8142 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		31FB4300146EEA5000CF8142 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				31FB4301146EEA5000CF8142 /* AppKit.framework */,
+				31FB4302146EEA5000CF8142 /* CoreData.framework */,
+				31FB4303146EEA5000CF8142 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		31FB4304146EEA5000CF8142 /* BindingConvenienceTest */ = {
+			isa = PBXGroup;
+			children = (
+				31FB4310146EEA5000CF8142 /* PRHAppDelegate.h */,
+				31FB4311146EEA5000CF8142 /* PRHAppDelegate.m */,
+				31FB4313146EEA5000CF8142 /* MainMenu.xib */,
+				31FB4305146EEA5000CF8142 /* Supporting Files */,
+			);
+			path = BindingConvenienceTest;
+			sourceTree = "<group>";
+		};
+		31FB4305146EEA5000CF8142 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				31FB4306146EEA5000CF8142 /* BindingConvenienceTest-Info.plist */,
+				31FB4307146EEA5000CF8142 /* InfoPlist.strings */,
+				31FB430A146EEA5000CF8142 /* main.m */,
+				31FB430C146EEA5000CF8142 /* BindingConvenienceTest-Prefix.pch */,
+				31FB430D146EEA5000CF8142 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		31FB42F9146EEA4F00CF8142 /* BindingConvenienceTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31FB4318146EEA5000CF8142 /* Build configuration list for PBXNativeTarget "BindingConvenienceTest" */;
+			buildPhases = (
+				31FB42F6146EEA4F00CF8142 /* Sources */,
+				31FB42F7146EEA4F00CF8142 /* Frameworks */,
+				31FB42F8146EEA4F00CF8142 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BindingConvenienceTest;
+			productName = BindingConvenienceTest;
+			productReference = 31FB42FA146EEA5000CF8142 /* BindingConvenienceTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		31FB42F1146EEA4F00CF8142 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 31FB42F4146EEA4F00CF8142 /* Build configuration list for PBXProject "BindingConvenienceTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 31FB42EF146EEA4F00CF8142;
+			productRefGroup = 31FB42FB146EEA5000CF8142 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				31FB42F9146EEA4F00CF8142 /* BindingConvenienceTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		31FB42F8146EEA4F00CF8142 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31FB4309146EEA5000CF8142 /* InfoPlist.strings in Resources */,
+				31FB430F146EEA5000CF8142 /* Credits.rtf in Resources */,
+				31FB4315146EEA5000CF8142 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		31FB42F6146EEA4F00CF8142 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31FB430B146EEA5000CF8142 /* main.m in Sources */,
+				31FB4312146EEA5000CF8142 /* PRHAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		31FB4307146EEA5000CF8142 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				31FB4308146EEA5000CF8142 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		31FB430D146EEA5000CF8142 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				31FB430E146EEA5000CF8142 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		31FB4313146EEA5000CF8142 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				31FB4314146EEA5000CF8142 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		31FB4316146EEA5000CF8142 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		31FB4317146EEA5000CF8142 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		31FB4319146EEA5000CF8142 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BindingConvenienceTest/BindingConvenienceTest-Prefix.pch";
+				INFOPLIST_FILE = "BindingConvenienceTest/BindingConvenienceTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		31FB431A146EEA5000CF8142 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BindingConvenienceTest/BindingConvenienceTest-Prefix.pch";
+				INFOPLIST_FILE = "BindingConvenienceTest/BindingConvenienceTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		31FB42F4146EEA4F00CF8142 /* Build configuration list for PBXProject "BindingConvenienceTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31FB4316146EEA5000CF8142 /* Debug */,
+				31FB4317146EEA5000CF8142 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31FB4318146EEA5000CF8142 /* Build configuration list for PBXNativeTarget "BindingConvenienceTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31FB4319146EEA5000CF8142 /* Debug */,
+				31FB431A146EEA5000CF8142 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 31FB42F1146EEA4F00CF8142 /* Project object */;
+}
