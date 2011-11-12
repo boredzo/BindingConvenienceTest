@@ -13,9 +13,9 @@
 @interface PRHAppDelegate : NSObject <NSApplicationDelegate>
 
 @property (assign) IBOutlet NSWindow *window;
-@property (weak) IBOutlet PRHHueView *hueView;
-@property (weak) IBOutlet PRHBindableNonView *bindableNonView;
-@property (weak) IBOutlet PRHValuesOwner *valuesOwner;
+@property (assign) IBOutlet PRHHueView *hueView;
+@property (assign) IBOutlet PRHBindableNonView *bindableNonView;
+@property (assign) IBOutlet PRHValuesOwner *valuesOwner;
 - (IBAction)setNameToSomethingRandom:(id)sender;
 
 @end

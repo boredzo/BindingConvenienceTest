@@ -14,6 +14,7 @@
 @synthesize name;
 - (void) setName:(NSString *)newName {
 	NSLog(@"%s: %@", __func__, newName);
+	[name autorelease];
 	name = [newName copy];
 }
 
